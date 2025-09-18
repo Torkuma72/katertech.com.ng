@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KaterTech Ltd - Empowering Professionals</title>
+
+<!-- Inline CSS -->
+<style>
+* { box-sizing: border-box; scroll-behavior: smooth; }
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f7f8fa; color: #333; }
+a { text-decoration: none; color: #0073e6; }
+header, footer { background-color: #002147; color: #fff; padding: 20px 0; position: sticky; top: 0; z-index: 1000; }
+header a, footer a { color: #fff; margin-right: 15px; }
+.container { width: 90%; max-width: 1200px; margin: 0 auto; }
+nav a { margin-right: 15px; font-weight: 500; }
+nav a.active { border-bottom: 2px solid #f39c12; }
+.btn-primary { background-color: #0073e6; color: #fff; padding: 10px 20px; border-radius: 5px; margin-right:10px; }
+.btn-secondary { background-color: #f39c12; color: #fff; padding: 10px 20px; border-radius: 5px; }
+section { padding: 80px 0; }
+h1, h2, h3 { color: #002147; }
+.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0; }
+.service-card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+.service-card img { max-width: 100%; height: 150px; object-fit: cover; margin-bottom: 10px; border-radius: 5px; }
+footer p { margin: 5px 0; text-align: center; }
+@media(max-width:768px){ nav { text-align:center; } nav a { display:block; margin:5px 0; } }
+</style>
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "KaterTech Ltd",
+  "url": "https://www.katertech.com.ng",
+  "logo": "https://www.katertech.com.ng/assets/images/logo-placeholder.png",
+  "sameAs": ["https://www.linkedin.com/company/katertech"],
+  "description": "KaterTech Ltd provides professional software training in engineering and project management software for oil, gas, energy, and project management sectors."
+}
+</script>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="logo" style="display:inline-block;">
+      <a href="#home"><img src="assets/images/logo-placeholder.png" alt="KaterTech Logo" style="height:60px;"></a>
+    </div>
+    <nav style="display:inline-block; float:right;">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#courses" class="nav-link">Courses</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <div class="container">
+    <h1>Welcome to KaterTech Ltd</h1>
+    <p>Empowering professionals with cutting-edge engineering and project management software training.</p>
+    <a href="#courses" class="btn-primary">View Courses</a>
+    <a href="#contact" class="btn-secondary">Request Demo</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <h2>About KaterTech Ltd</h2>
+    <p>KaterTech Ltd is a leading provider of professional software training in diverse industries including oil & gas, energy, and project management. We help professionals gain hands-on expertise in top engineering and project management tools.</p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <h2>Our Software Trainings</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="Aspen HYSYS">
+        <h3>Aspen HYSYS</h3>
+        <p>Hands-on training for engineers and project managers.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="PIPESIM">
+        <h3>PIPESIM</h3>
+        <p>Advanced pipeline and process simulation training.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="REVIT">
+        <h3>REVIT</h3>
+        <p>Comprehensive training in building and engineering design.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="AutoCAD">
+        <h3>AutoCAD</h3>
+        <p>Professional CAD drafting and modeling skills.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="AVEVA PDMS">
+        <h3>AVEVA PDMS</h3>
+        <p>Training in 3D plant design software.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="SolidWorks">
+        <h3>SolidWorks</h3>
+        <p>3D design and modeling software training.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="STAAD PRO">
+        <h3>STAAD PRO</h3>
+        <p>Structural analysis and design training.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/logo-placeholder.png" alt="Primavera P6">
+        <h3>Primavera P6</h3>
+        <p>Project management and scheduling training.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Courses Section -->
+<section id="courses">
+  <div class="container">
+    <h2>Courses</h2>
+    <p>Our courses cover all major software used in engineering and project management sectors, offering practical, hands-on learning experiences to ensure real-world competency.</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Email: info@katertech.com.ng</p>
+    <p>Phone: +2340000000000</p>
+    <p>Address: [Insert Address]</p>
+    <p>Connect with us on <a href="https://www.linkedin.com/company/katertech" target="_blank">LinkedIn</a></p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2025 KaterTech Ltd. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Smooth Scroll Active Link Script -->
+<script>
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-link");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 100;
+    if (scrollY >= sectionTop) current = section.getAttribute("id");
+  });
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === "#" + current) link.classList.add("active");
+  });
+});
+</script>
+
+</body>
+</html>
